@@ -1,0 +1,70 @@
+{
+  "_from": "penv",
+  "_id": "penv@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-BawdNi1adHTpjc70y/hJPEVUcPA=",
+  "_location": "/penv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "penv",
+    "name": "penv",
+    "escapedName": "penv",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/penv/-/penv-0.1.1.tgz",
+  "_shasum": "05ac1d362d5a7474e98dcef4cbf8493c455470f0",
+  "_spec": "penv",
+  "_where": "/Users/almond/niflr/niflr_billing_service",
+  "author": {
+    "name": "Julian Duque",
+    "email": "julianduquej@gmail.com"
+  },
+  "bin": {
+    "penv": "./bin/penv"
+  },
+  "bugs": {
+    "url": "https://github.com/julianduque/penv/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Julian Duque",
+      "email": "julianduquej@gmail.com"
+    },
+    {
+      "name": "Jarid Margolin",
+      "email": "jaridmargolin@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "eyes": "~0.1.8",
+    "utile": "~0.2.0"
+  },
+  "deprecated": false,
+  "description": "A package.json enviroment manager",
+  "devDependencies": {
+    "chai": "~1.6.0",
+    "mocha": "~1.9.0",
+    "rimraf": "~2.1.4"
+  },
+  "homepage": "https://github.com/julianduque/penv#readme",
+  "license": "MIT",
+  "main": "./bin/penv",
+  "name": "penv",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianduque/penv.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "0.1.1"
+}
